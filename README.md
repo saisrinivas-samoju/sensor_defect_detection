@@ -1,5 +1,7 @@
 ## Wafer Fault Detection
 
+
+
 #### Problem Statement:
 
   The goal is to build a programme to predict the faulty wafers with the information previously gathered by using classification methods in Machine Learning.
@@ -70,6 +72,11 @@
   - After the pre-processing steps, the data will be divided into the clusters by using the already trained Kmeans clustering model.
   And, the best model created for each cluster will be used for prediction and all the data will be compiled together with their respective wafer names.
   - Finally, the prediction results will be exported as a csv file.
+
+----
+## Link
+
+<a href="https://wafer-fault--detection.herokuapp.com/">Heroku App Link</a>
 
 ----
 
@@ -200,7 +207,7 @@ git push -u origin main
 >HEROKU_APP_NAME
 >HEROKU_EMAIL_ADDRESS
 
->DOCKER_IMAGE_NAME=<wafercircle3270303>
+>DOCKER_IMAGE_NAME=<wafercircle258>
 
 ## to update the modification
 
