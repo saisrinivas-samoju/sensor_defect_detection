@@ -1,5 +1,9 @@
 ## Wafer Fault Detection
 
+----
+## Link
+
+<a href="https://wafer-fault--detection.herokuapp.com/">Heroku App Link</a>
 
 
 #### Problem Statement:
@@ -72,11 +76,6 @@
   - After the pre-processing steps, the data will be divided into the clusters by using the already trained Kmeans clustering model.
   And, the best model created for each cluster will be used for prediction and all the data will be compiled together with their respective wafer names.
   - Finally, the prediction results will be exported as a csv file.
-
-----
-## Link
-
-<a href="https://wafer-fault--detection.herokuapp.com/">Heroku App Link</a>
 
 ----
 
