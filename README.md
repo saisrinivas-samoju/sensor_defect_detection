@@ -8,7 +8,7 @@
 
 #### Problem Statement:
 
-  The goal is to build a programme to predict the faulty wafers with the information previously gathered by using classification methods in Machine Learning.
+  The goal is to build a program to predict the faulty wafers with the information previously gathered by using classification methods in Machine Learning.
 
 #### Architecture
 
@@ -217,4 +217,4 @@ git push
 ```
 
 
-## #docker login -u $DOCKERHUB_USER -p $DOCKER_HUB_PASSWORD_USER docker.io
+<!-- ## #docker login -u $DOCKERHUB_USER -p $DOCKER_HUB_PASSWORD_USER docker.io -->
