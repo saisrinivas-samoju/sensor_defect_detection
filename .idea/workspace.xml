@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b494c0-9c86-43b4-bf57-e9b6d27a21b7" name="Default Changelist" comment="" />
+    <list default="true" id="e8b494c0-9c86-43b4-bf57-e9b6d27a21b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Database/Prediction.db" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Database/Prediction.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DataBaseConnectionLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DataBaseConnectionLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DbInsertLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DbInsertLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/DbTableCreateLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/DbTableCreateLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/ExportToCsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/ExportToCsv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/GeneralLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/GeneralLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/Prediction_Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/Prediction_Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/columnValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/columnValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/dataTransformLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/dataTransformLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/missingValuesInColumn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/missingValuesInColumn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_Logs/nameValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/nameValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/DataBaseConnectionLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/DataBaseConnectionLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/DbInsertLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/DbInsertLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/DbTableCreateLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/DbTableCreateLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/ExportToCsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/ExportToCsv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/GeneralLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/GeneralLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/ModelTrainingLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/ModelTrainingLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/Training_Main_Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/Training_Main_Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/columnValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/columnValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/dataTransformLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/dataTransformLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/missingValuesInColumn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/missingValuesInColumn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/nameValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/nameValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer18_20012.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_07072021_000000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_07072021_223345.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_08072021_120000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_10072021_131534.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_11072021_151432.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_12072021_111213.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_13072021_141000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_14072021_113045.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_15010_130532.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_15072021_130532.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_18072021_111.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_18072021_121532.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_19072021_141432.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_20072021_135132.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_21072021_143634.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_22072021_173245.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_23072021_163456.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_24072021_150121.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_25072021_142112.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_fault_detection.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Wafer_text_140532.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/Waferdefault_64085_561278.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_07072021_041011.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_16072021_134553.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_17072021_125434.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_20072021_090819.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_22072021_041119.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_23072021_011008.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_28072021_051011.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_29072021_060756.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Bad_Raw/wafer_31072021_090811.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_13072021_090817.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_16072021_051629.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_20072021_090716.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_21072021_080913.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_23072021_041211.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_27072021_080911.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_28072021_031911.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_28072021_090817.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/wafer_29072021_050617.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_model_finder/tuner.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_model_finder/tuner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_operations/file_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_operations/file_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_monitoringdashboard.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_monitoringdashboard.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DecisionTree0/DecisionTree0.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DecisionTree1/DecisionTree1.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DecisionTree2/DecisionTree2.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/KMeans/KMeans.sav" beforeDir="false" afterPath="$PROJECT_DIR$/models/KMeans/KMeans.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing_data/K-Means_Elbow.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing_data/K-Means_Elbow.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing_data/null_values.csv" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing_data/null_values.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wafer_fault_detection.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wafer_fault_detection.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wafer_fault_detection.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wafer_fault_detection.egg-info/top_level.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +110,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

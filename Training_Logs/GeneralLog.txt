@@ -1,3 +1,19 @@
 2021-11-22/15:08:43		GoodRaw directory deleted successfully!!!
 2021-11-22/15:08:43		Bad files moved to archive
 2021-11-22/15:08:43		Bad Raw Data Folder Deleted successfully!!
+2022-02-24/22:45:11		BadRaw directory deleted before starting validation!!!
+2022-02-24/22:45:11		Error while Deleting Directory : [WinError 32] The process cannot access the file because it is being used by another process: 'Training_Raw_files_validated/Good_Raw/wafer_28072021_090817.csv'
+2022-02-24/22:45:20		GoodRaw directory deleted successfully!!!
+2022-02-24/22:46:08		GoodRaw directory deleted successfully!!!
+2022-02-24/22:46:08		Bad files moved to archive
+2022-02-24/22:46:08		Bad Raw Data Folder Deleted successfully!!
+2022-02-24/23:00:37		GoodRaw directory deleted successfully!!!
+2022-02-24/23:00:37		Error while moving bad files to archive:: [WinError 32] The process cannot access the file because it is being used by another process: 'Training_Raw_files_validated/Bad_Raw/wafer_16072021_134553.csv'
+2022-02-24/23:00:37		Error while Deleting Directory : [WinError 32] The process cannot access the file because it is being used by another process: 'Training_Raw_files_validated/Bad_Raw/Wafer_18072021_121532.csv'
+2022-02-24/23:29:53		BadRaw directory deleted before starting validation!!!
+2022-02-24/23:30:28		GoodRaw directory deleted successfully!!!
+2022-02-24/23:30:28		Bad files moved to archive
+2022-02-24/23:30:28		Bad Raw Data Folder Deleted successfully!!
+2022-02-25/16:20:29		GoodRaw directory deleted successfully!!!
+2022-02-25/16:20:29		Bad files moved to archive
+2022-02-25/16:20:29		Bad Raw Data Folder Deleted successfully!!

@@ -110,3 +110,7 @@ class File_Operation:
             self.logger_object.log(self.file_object,
                                    'Exited the find_correct_model_file method of the Model_Finder class with Failure')
             raise Exception()
+
+
+class FileOperation:
+    pass

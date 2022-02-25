@@ -85,9 +85,7 @@ def trainRouteClient():
 
         if folder_path is not None:
 
-            path = folder_path
-
-            train_valObj = train_validation(path) #object initialization
+            train_valObj = train_validation(folder_path) #object initialization
 
             train_valObj.train_validation()#calling the training_validation function
 
@@ -109,10 +107,10 @@ def trainRouteClient():
         return Response("Error Occurred! %s" % e)
     return Response("Training successful!!")
 
-port = int(os.getenv("PORT",5000))
+# port = int(os.getenv("PORT",5000))
 if __name__ == "__main__":
     host = '0.0.0.0'
-    # port = 5000
+    port = 5000
     httpd = simple_server.make_server(host, port, app)
     print("Serving on %s %d" % (host, port))
     httpd.serve_forever()

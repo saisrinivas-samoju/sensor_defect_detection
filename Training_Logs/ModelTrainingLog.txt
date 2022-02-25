@@ -65,3 +65,204 @@
 2021-11-22/17:20:16		Entered the save_model method of the File_Operation class
 2021-11-22/17:20:16		Model File DecisionTree0 saved. Exited the save_model method of the Model_Finder class
 2021-11-22/17:20:16		Successful End of Training
+2022-02-24/22:46:10		Start of Training
+2022-02-24/22:46:10		Entered the get_data method of the Data_Getter class
+2022-02-24/22:46:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-02-24/22:46:10		Entered the remove_columns method of the Preprocessor class
+2022-02-24/22:46:10		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-24/22:46:10		Entered the separate_label_feature method of the Preprocessor class
+2022-02-24/22:46:10		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-02-24/22:46:10		Entered the is_null_present method of the Preprocessor class
+2022-02-24/22:46:10		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-02-24/22:46:10		Entered the impute_missing_values method of the Preprocessor class
+2022-02-24/22:46:15		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-24/22:46:15		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-24/22:46:22		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-24/22:46:22		Entered the remove_columns method of the Preprocessor class
+2022-02-24/22:46:22		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-24/22:46:22		Entered the elbow_plot method of the KMeansClustering class
+2022-02-24/22:46:50		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-02-24/22:46:50		Entered the create_clusters method of the KMeansClustering class
+2022-02-24/22:46:51		Entered the save_model method of the File_Operation class
+2022-02-24/22:46:51		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-02-24/22:46:51		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-02-24/22:46:51		Entered the get_best_model method of the Model_Finder class
+2022-02-24/22:46:51		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/22:47:53		Support Vector best params: {'C': 0.001, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/22:47:53		AUC for SVC:0.5
+2022-02-24/22:47:53		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/22:48:06		Decision Tree best params: {'class_weight': None, 'criterion': 'entropy', 'max_depth': 3}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/22:48:06		AUC for DT:0.4967741935483871
+2022-02-24/22:48:06		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/22:49:26		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/22:49:27		AUC for RF:0.5
+2022-02-24/22:49:27		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-24/22:54:37		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-24/22:54:37		AUC for XGBoost:0.5
+2022-02-24/22:54:37		Entered the save_model method of the File_Operation class
+2022-02-24/22:54:37		Model File SupportVector0 saved. Exited the save_model method of the Model_Finder class
+2022-02-24/22:54:37		Entered the get_best_model method of the Model_Finder class
+2022-02-24/22:54:37		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/22:54:48		Support Vector best params: {'C': 0.001, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/22:54:48		AUC for SVC:0.5
+2022-02-24/22:54:48		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/22:54:50		Decision Tree best params: {'class_weight': None, 'criterion': 'gini', 'max_depth': 3}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/22:54:50		AUC for DT:0.46296296296296297
+2022-02-24/22:54:50		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/22:55:48		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/22:55:48		AUC for RF:0.5
+2022-02-24/22:55:48		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-24/22:56:47		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-24/22:56:47		AUC for XGBoost:0.5
+2022-02-24/22:56:47		Entered the save_model method of the File_Operation class
+2022-02-24/22:56:47		Model File SupportVector1 saved. Exited the save_model method of the Model_Finder class
+2022-02-24/22:56:47		Entered the get_best_model method of the Model_Finder class
+2022-02-24/22:56:47		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/22:57:04		Support Vector best params: {'C': 0.001, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/22:57:04		AUC for SVC:0.5
+2022-02-24/22:57:04		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/22:57:08		Decision Tree best params: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 7}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/22:57:08		AUC for DT:0.4824561403508772
+2022-02-24/22:57:08		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/22:58:15		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/22:58:15		AUC for RF:0.5
+2022-02-24/22:58:15		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-24/22:59:57		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-24/22:59:57		AUC for XGBoost:0.5
+2022-02-24/22:59:57		Entered the save_model method of the File_Operation class
+2022-02-24/22:59:57		Model File SupportVector2 saved. Exited the save_model method of the Model_Finder class
+2022-02-24/22:59:57		Successful End of Training
+2022-02-24/23:30:35		Start of Training
+2022-02-24/23:30:35		Entered the get_data method of the Data_Getter class
+2022-02-24/23:30:35		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-02-24/23:30:35		Entered the remove_columns method of the Preprocessor class
+2022-02-24/23:30:36		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-24/23:30:36		Entered the separate_label_feature method of the Preprocessor class
+2022-02-24/23:30:36		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-02-24/23:30:36		Entered the is_null_present method of the Preprocessor class
+2022-02-24/23:30:36		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-02-24/23:30:36		Entered the impute_missing_values method of the Preprocessor class
+2022-02-24/23:31:05		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-24/23:31:05		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-24/23:31:11		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-24/23:31:11		Entered the remove_columns method of the Preprocessor class
+2022-02-24/23:31:11		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-24/23:31:11		Entered the elbow_plot method of the KMeansClustering class
+2022-02-24/23:31:38		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-02-24/23:31:38		Entered the create_clusters method of the KMeansClustering class
+2022-02-24/23:31:41		Entered the save_model method of the File_Operation class
+2022-02-24/23:31:41		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-02-24/23:31:41		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-02-24/23:31:41		Entered the get_best_model method of the Model_Finder class
+2022-02-24/23:31:41		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/23:51:51		Support Vector best params: {'C': 1, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-24/23:51:51		AUC for SVC:1.0
+2022-02-24/23:51:51		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/23:52:26		Decision Tree best params: {'class_weight': None, 'criterion': 'entropy', 'max_depth': None}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-24/23:52:26		AUC for DT:1.0
+2022-02-24/23:52:26		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/23:54:25		Random Forest best params: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-24/23:54:25		AUC for RF:0.625
+2022-02-24/23:54:25		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/00:05:37		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/00:05:37		AUC for XGBoost:1.0
+2022-02-25/00:05:37		Entered the save_model method of the File_Operation class
+2022-02-25/00:05:37		Model File SupportVector0 saved. Exited the save_model method of the Model_Finder class
+2022-02-25/00:05:37		Entered the get_best_model method of the Model_Finder class
+2022-02-25/00:05:37		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/00:05:55		Support Vector best params: {'C': 0.001, 'degree': 2, 'gamma': 0.1, 'kernel': 'poly'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/00:05:55		AUC for SVC:1.0
+2022-02-25/00:05:55		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/00:05:59		Decision Tree best params: {'class_weight': None, 'criterion': 'gini', 'max_depth': None}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/00:05:59		AUC for DT:1.0
+2022-02-25/00:05:59		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/00:06:59		Random Forest best params: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/00:06:59		AUC for RF:1.0
+2022-02-25/00:06:59		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/00:09:05		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/00:09:05		AUC for XGBoost:1.0
+2022-02-25/00:09:05		Entered the save_model method of the File_Operation class
+2022-02-25/00:09:05		Model File SupportVector2 saved. Exited the save_model method of the Model_Finder class
+2022-02-25/00:09:05		Entered the get_best_model method of the Model_Finder class
+2022-02-25/00:09:05		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/00:10:03		Support Vector best params: {'C': 1, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/00:10:04		AUC for SVC:1.0
+2022-02-25/00:10:04		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/00:10:12		Decision Tree best params: {'class_weight': None, 'criterion': 'entropy', 'max_depth': None}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/00:10:12		AUC for DT:1.0
+2022-02-25/00:10:12		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/00:11:29		Random Forest best params: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/00:11:29		AUC for RF:1.0
+2022-02-25/00:11:29		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/00:15:24		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/00:15:24		AUC for XGBoost:1.0
+2022-02-25/00:15:24		Entered the save_model method of the File_Operation class
+2022-02-25/00:15:24		Model File SupportVector1 saved. Exited the save_model method of the Model_Finder class
+2022-02-25/00:15:24		Successful End of Training
+2022-02-25/16:20:34		Start of Training
+2022-02-25/16:20:34		Entered the get_data method of the Data_Getter class
+2022-02-25/16:20:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-02-25/16:20:34		Entered the remove_columns method of the Preprocessor class
+2022-02-25/16:20:34		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-25/16:20:34		Entered the separate_label_feature method of the Preprocessor class
+2022-02-25/16:20:34		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-02-25/16:20:34		Entered the is_null_present method of the Preprocessor class
+2022-02-25/16:20:35		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-02-25/16:20:35		Entered the impute_missing_values method of the Preprocessor class
+2022-02-25/16:21:00		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-25/16:21:00		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-25/16:21:03		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-25/16:21:03		Entered the remove_columns method of the Preprocessor class
+2022-02-25/16:21:03		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-25/16:21:03		Entered the elbow_plot method of the KMeansClustering class
+2022-02-25/16:21:24		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-02-25/16:21:24		Entered the create_clusters method of the KMeansClustering class
+2022-02-25/16:21:25		Entered the save_model method of the File_Operation class
+2022-02-25/16:21:25		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-02-25/16:21:25		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-02-25/16:21:25		Entered the get_best_model method of the Model_Finder class
+2022-02-25/16:21:25		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/16:41:32		Support Vector best params: {'C': 1, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/16:41:32		AUC for SVC:1.0
+2022-02-25/16:41:32		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/16:42:02		Decision Tree best params: {'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': None}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/16:42:02		AUC for DT:1.0
+2022-02-25/16:42:02		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/16:43:39		Random Forest best params: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/16:43:39		AUC for RF:0.6136363636363636
+2022-02-25/16:43:39		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/16:52:43		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/16:52:43		AUC for XGBoost:1.0
+2022-02-25/16:52:43		Entered the save_model method of the File_Operation class
+2022-02-25/16:52:43		Model File SupportVector1 saved. Exited the save_model method of the Model_Finder class
+2022-02-25/16:52:43		Entered the get_best_model method of the Model_Finder class
+2022-02-25/16:52:43		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/16:52:57		Support Vector best params: {'C': 0.001, 'degree': 2, 'gamma': 'scale', 'kernel': 'linear'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/16:52:57		AUC for SVC:1.0
+2022-02-25/16:52:57		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/16:53:00		Decision Tree best params: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 3}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/16:53:00		AUC for DT:1.0
+2022-02-25/16:53:00		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/16:53:37		Random Forest best params: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/16:53:37		AUC for RF:1.0
+2022-02-25/16:53:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/16:55:09		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/16:55:09		AUC for XGBoost:1.0
+2022-02-25/16:55:09		Entered the save_model method of the File_Operation class
+2022-02-25/16:55:09		Model File SupportVector0 saved. Exited the save_model method of the Model_Finder class
+2022-02-25/16:55:09		Entered the get_best_model method of the Model_Finder class
+2022-02-25/16:55:09		Entered the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/16:56:20		Support Vector best params: {'C': 0.5, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}. Exited the get_best_params_for_svc method of the Model_Finder class
+2022-02-25/16:56:20		AUC for SVC:0.5909090909090909
+2022-02-25/16:56:20		Entered the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/16:56:31		Decision Tree best params: {'class_weight': None, 'criterion': 'entropy', 'max_depth': 3}. Exited the get_best_params_for_dtree method of the Model_Finder class
+2022-02-25/16:56:31		AUC for DT:1.0
+2022-02-25/16:56:31		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/16:57:45		Random Forest best params: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-25/16:57:45		AUC for RF:0.7272727272727273
+2022-02-25/16:57:45		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/17:02:27		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-25/17:02:28		AUC for XGBoost:1.0
+2022-02-25/17:02:28		Entered the save_model method of the File_Operation class
+2022-02-25/17:02:28		Model File DecisionTree2 saved. Exited the save_model method of the Model_Finder class
+2022-02-25/17:02:28		Successful End of Training

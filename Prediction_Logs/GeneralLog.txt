@@ -3,3 +3,6 @@
 2021-11-22/17:49:46		GoodRaw directory deleted successfully!!!
 2021-11-22/17:49:46		Bad files moved to archive
 2021-11-22/17:49:46		Bad Raw Data Folder Deleted successfully!!
+2022-02-24/22:44:43		GoodRaw directory deleted successfully!!!
+2022-02-24/22:44:43		Bad files moved to archive
+2022-02-24/22:44:43		Bad Raw Data Folder Deleted successfully!!
